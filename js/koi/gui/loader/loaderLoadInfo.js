@@ -29,10 +29,6 @@ LoaderLoadInfo.prototype.loadSVG = function() {
 
     request.onload = () => {
         this.iconElement.innerHTML = request.responseText;
-
-        // setTimeout(() => {
-        //     this.element.classList.remove(this.CLASS_INVISIBLE);
-        // }, 1000 * this.FADE_IN_DELAY);
     };
 
     request.open("GET", LoaderLoadInfo.prototype.FILE, true);
@@ -61,8 +57,6 @@ LoaderLoadInfo.prototype.createElement = function() {
 
     this.iconElement.id = this.ICON_ID;
     this.textElement.id = this.TEXT_ID;
-
-    // this.textElement.innerText = ;
 
     element.appendChild(this.iconElement);
     element.appendChild(this.textElement);

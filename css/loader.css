@@ -51,7 +51,6 @@
     height: 4rem;
     max-height: 100px;
     padding: 16px;
-
 }
 
 #loader-links .loader-icon {
@@ -74,17 +73,6 @@
 #loader #loader-website path {
     fill: #FEFFFF;
 }
-
-/*#loader #loader-discord svg{*/
-/*    height: 100%;*/
-/*    width: auto;*/
-/*}*/
-
-/*#loader #loader-website svg {*/
-/*    !*fill: #FEFFFF;*!*/
-/*    height: 85%;*/
-/*    width: auto;*/
-/*}*/
 
 #loader .loader-icon.invisible,
 #loader .loader-bar.invisible {
@@ -218,12 +206,8 @@
 }
 
 .loader-bar {
-    /*width: 100%;*/
     height: var(--loader-logo-width);
-    /*background-color: var(--color-white);*/
     border-radius: 5px;
-    /*margin-top: 10px;*/
-    /*width: 500px;*/
     margin: auto 0;
     align-self: flex-start;
     justify-self: flex-start;
@@ -240,7 +224,6 @@
 
 .loader-bar:hover {
     filter: invert(100%);
-    /*box-shadow: 0 0 10px 0 var(--color-white);*/
 }
 
 #loader-icon {
@@ -353,7 +336,6 @@
         position: absolute;
         left: -60px;
         bottom: 16px;
-        /* top: -60px; */
         top: unset;
         width: 60px;
         height: 60px;
@@ -361,7 +343,6 @@
         background-color: var(--loader-button-text-color);
         border-top-left-radius: 60px;
         border-bottom-left-radius: 60px;
-        /*border-bottom-left-radius: 60px;*/
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
@@ -383,39 +364,6 @@
         width: 60%;
     }
 }
-
-@media only screen and (orientation: landscape) {
-
-}
-
-/*  !* For Mobile Portrait View *!*/
-/*@media screen*/
-/*  and (max-device-width: 480px)*/
-/*  and (orientation: portrait){*/
-/*    html{*/
-/*     background-color: red;*/
-/*     width: 80%;*/
-/*    }*/
-/*}*/
-
-/*!* For Mobile Landscape View *!*/
-/*@media screen*/
-/*  and (max-device-width: 640px)*/
-/*  and (orientation: landscape){*/
-/*   html{*/
-/*      background-color: red;*/
-
-/*    }*/
-/*}*/
-
-/*!* For Mobile Phones Portrait or Landscape View *!*/
-/*@media screen*/
-/*  and (max-device-width: 640px){*/
-/*    html{*/
-/*      background-color: red;*/
-
-/*    }*/
-/*}*/
 
 @keyframes flutter {
   0% {
